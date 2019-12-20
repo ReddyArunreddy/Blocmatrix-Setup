@@ -16,8 +16,10 @@ sudo apt-get -y install git pkg-config protobuf-compiler libprotobuf-dev libssl-
 
 4. Install CMake.
 
-wget https://github.com/Kitware/CMake/releases/download/v3.13.3/cmake-3.13.3-Linux-x86_64.sh
-sudo sh cmake-3.13.3-Linux-x86_64.sh --prefix=/usr/local --exclude-subdir
+    1. wget https://github.com/Kitware/CMake/releases/download/v3.13.3/cmake-3.13.3-Linux-x86_64.sh
+
+
+    2. sudo sh cmake-3.13.3-Linux-x86_64.sh --prefix=/usr/local --exclude-subdir
 
 use cmake --version check.
 
@@ -111,8 +113,9 @@ change the user and group to your logged in username in the blocmatrixd.service 
 
 3. Check the status of blocmatrixd.
     sudo systemctl status blocmatrixd.service
+
     you should be able to see something like below if it's working properly.
-    [sudo] password for blocmatrix: 
+
     ● blocmatrixd.service - Blocmatrix Daemon
     Loaded: loaded (/etc/systemd/system/blocmatrixd.service; enabled; vendor preset: enabled)
     Active: active (running) since Fri 2019-12-20 11:57:33 IST; 38min ago
@@ -140,7 +143,7 @@ change the user and group to your logged in username in the blocmatrixd.service 
 
 1. Clone the validator-keys-tool Repository.
 
-    git clone https://github.com/ReddyArunreddy/validator-keys-tool.git
+    * git clone https://github.com/ReddyArunreddy/validator-keys-tool.git
 
 2. cd validator-keys-tool.
 
@@ -256,6 +259,7 @@ result" : {
 by using the tx_blob parameter you submit the transaction to the network.
 
 command $ blocmatrixd submit tx_blob
+
 $ blocmatrixd submit 1200132280000000240000000368400000000000000A732102946398A614A41D1FFCBEDC9A2CD84FD2381DDCADDD9D50D66A75B5D0A990B98C74473045022100A97495711F41F7758A39A3DEFE91C2139ED7E94C0A39A92EB4B475C80B5E80D302201CBE94907E3C34AF44916039FC37A16CFD6744C6BB2745037DAFED50971A1B5681141BE0BFD6C04C38D41010C5490CA526AFAFAF485D85142AA699A44D05EEE878F8F8502EB3E30C470441CF
 
 Sample output :
