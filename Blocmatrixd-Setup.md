@@ -143,7 +143,7 @@ change the user and group to your logged in username in the blocmatrixd.service 
 
 1. Clone the validator-keys-tool Repository.
 
-    * git clone https://github.com/ReddyArunreddy/validator-keys-tool.git
+         git clone https://github.com/ReddyArunreddy/validator-keys-tool.git
 
 2. cd validator-keys-tool.
 
@@ -173,7 +173,7 @@ Sample output:
 
 Update blocmatrixd.cfg file with these values:
 
-  # validator public key: nHUtNnLVx7odrz5dnfb2xpIgbEeJPbzJWfdicSkGyVw1eE5GpjQr
+  validator public key: nHUtNnLVx7odrz5dnfb2xpIgbEeJPbzJWfdicSkGyVw1eE5GpjQr
 
   [validator_token]
   eyJ2YWxpZGF0aW9uX3NlY3J|dF9rZXkiOiI5ZWQ0NWY4NjYyNDFjYzE4YTI3NDdiNT
